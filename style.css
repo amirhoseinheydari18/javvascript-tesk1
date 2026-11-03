@@ -1,0 +1,73 @@
+body{
+     color: #4a8a85; 
+}
+main{ display: flex;justify-content: center;}
+#measuring1 ,#measuring2{
+margin-bottom: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;gap: 12px;
+}
+#weight,#meters{  width: 100%; max-width: 200px; height: 40px;
+text-align: center;color: #c4c4c4ac;    border-radius: 25px; background-color: rgb(243, 241, 240);
+font-size:smaller; font-family: 'Segoe UI', Tahoma, Geneva, Verdana,;
+border: 2px solid;}
+#main-items{
+margin: 0 auto;
+}
+#measuring1 label ,#measuring2 label{
+color: #4a8a85; font-size: 30px;
+
+}
+#agg-under19 , #agg-up19 {
+display: flex; gap :5px
+;margin-right: 5px;
+
+}
+#agg-under19 { margin-top: 0px; 
+    margin-bottom: 10px ;
+}
+#botem{
+  background-color:#4a8a85 ; color: aliceblue; font-size: 22px;
+  ; border-radius: 50px; flex: none; width: 250px; height: 40px; 
+cursor: pointer;
+}
+#mohasebe{    display: flex;gap: 16px;flex: 0 0 40px ;flex: 1;width: auto ; align-items: center;
+}
+#radio{cursor: pointer;}
+#line1 ,#line2{
+width:120px ;height: 1.5px; background-color:#4a8a85;
+flex: 0 0 160px;
+}
+#header{
+  margin-top: 50px;  display: flex; align-items: center;gap: 16px;margin-bottom: 60px;
+}
+#header h1{ margin: 0 ; font-size: 21px;white-space:nowrap;}
+#line{ 
+ height: 3px; background-color:#4a8a85;
+flex: 0 0 300px;
+}
+#container{
+width: 100%;max-width: 450px;margin: 0 auto;
+padding: 0 16px;
+
+}
+*,*::before,*::after{
+box-sizing: border-box;
+
+
+
+}
+
+@media( max-widght:480px) {
+#header{
+  gap: 8px;
+
+}
+#header h1{
+  font-size: 16px;white-space: normal;
+}
+#lin1,#lin2{
+  flex: 0 0 20px;
+}
+}
